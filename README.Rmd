@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = "#>",
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+# fuRious
+
+**Author:** [Mark Rieke](https://www.thedatadiary.net/about/)
+**License:** [MIT](https://github.com/markjrieke/fuRious/blob/main/LICENSE)
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/markjrieke/fuRious/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markjrieke/fuRious/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+## Overview
+
+`{fuRious}` is a package for generating a family of movie titles based on the Fast & Furious series. This is a gag-package created alongside a submission for a lightening talk at [posit::conf(2023)](https://posit.co/conference/).
+
+## Installation
+
+This package is not released on CRAN. You can install from github:
+
+```{r, eval=FALSE}
+devtools::install_github("markjrieke/fuRious")
+```
+
+## Usage
+
+The workhorse of the package is the function `generate_titles()`. By default, `generate_titles()` will recreate the titles from the Fast & Furious series.
+
+```{r}
+library(fuRious)
+
+generate_titles()
+```
+
+You can also generate a new series of titles:
+
+```{r}
+generate_titles("star", "wars")
+generate_titles("harry", "potter")
+```
+
