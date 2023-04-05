@@ -1,5 +1,5 @@
 
-# fuRious
+# fuRious <img src="man/figures/logo.png" align="right" width="120" />
 
 **Author:** [Mark Rieke](https://www.thedatadiary.net/about/) <br>
 **License:**
@@ -61,16 +61,11 @@ generate_titles("star", "wars")
     #>  [9] "S9"                                 "Star X"
 
 ``` r
-generate_titles("harry", "potter")
+generate_titles("iron", "man")
 ```
 
-    #>  [1] "The Harry and the Potter"             
-    #>  [2] "2 Harry 2 Potter"                     
-    #>  [3] "The Harry and the Potter: Tokyo Drift"
-    #>  [4] "Harry & Potter"                       
-    #>  [5] "Harry Five"                           
-    #>  [6] "Harry & Potter 6"                     
-    #>  [7] "Potter 7"                             
-    #>  [8] "The Fate of the Potter"               
-    #>  [9] "H9"                                   
-    #> [10] "Harry X"
+    #>  [1] "The Iron and the Man"              "2 Iron 2 Man"                     
+    #>  [3] "The Iron and the Man: Tokyo Drift" "Iron & Man"                       
+    #>  [5] "Iron Five"                         "Iron & Man 6"                     
+    #>  [7] "Man 7"                             "The Fate of the Man"              
+    #>  [9] "I9"                                "Iron X"
