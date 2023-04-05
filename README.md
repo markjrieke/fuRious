@@ -1,7 +1,7 @@
 
 # fuRious
 
-**Author:** [Mark Rieke](https://www.thedatadiary.net/about/)
+**Author:** [Mark Rieke](https://www.thedatadiary.net/about/) <br>
 **License:**
 [MIT](https://github.com/markjrieke/fuRious/blob/main/LICENSE)
 
